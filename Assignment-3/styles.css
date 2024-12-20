@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    appearance: none;
+	border: none;
+	outline: none;
+    text-decoration: none;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    cursor: pointer;
+    height: 20px;
+    color: rgb(199, 3, 3);
+    margin-right: 10px;
+}
+
+.input-box{
+    border: 4px white solid;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.input-box img{
+    cursor: pointer;
+    /* background-color: rgb(255, 255, 255); */
+}

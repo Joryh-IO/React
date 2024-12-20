@@ -1,0 +1,14 @@
+WHat is JSX?
+    Java Script xml is a sytax extention to JavaScript which uses babel as its 
+    compiler and thus making it easier to write code.
+
+Superpowers of JSX  
+    - combines html and javascript
+    - Dynamic content: by using {} we can write JS in JSX and JSx in JS in JSX
+    - we can logically choose what to render as we make out own componenets and tags
+    - JSX automatically skips strings and props to prevent cross-side scripting
+    - writing code is faster and easy to read
+
+Types of scripts  
+    Module:This type lets the js know that it can import and export modules and deal with modules
+    CommonJS: this type lets the js know that its a normal javaScript file.
