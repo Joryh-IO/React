@@ -1,0 +1,32 @@
+What is Emmet?
+    Emmet is  a developing tool which works almost like auto-correcting for html and css languages,its inbuilt in vsCode.
+ 
+Differnce between a library and Framework
+    library is a set of functions and classes that acts as a tool to develop applications where as framework is an already 
+    defined structure that lets us build applications in a pre-defined manner which is both an advatage and limitation
+    as it does not give us much flexibility and freedom.
+
+What is a CDN? Why do we use it?
+    Content Delivery Network is a network of servers transfering data like images, files, audio etc, in such a way that the
+    user gets the data from the closest server as to reduce delay and provide much faster means of data sharing.
+
+Why is React known as React?
+    usually for a webpage to update data we have to refresh but with the use of react only the specific part of the webpage 
+    would update instead of the whole webpage this is the reason its called "react" as it "reacts" to new data spontaneously.
+
+What is cross-origin in Script tag?
+    There is a policy called Same Origin Policy(SOP) which states that web-browsers can access scripts from only one origin
+    which is the local one (or server) this is done as a security measure to stop other scripts from internet to access the 
+    local data, so if we actually want to access scripts from the web we tell the script tag that yes this server is reliable
+    by adding 'cross-origin' to the scipt tag.
+
+WHat is the differnce between React and React-DOM?
+    React is the core library used to build a reactive and dynamic webpages, React-DOM is a script that creates a virtual DOM
+    and lets the browser render react elements much faster , effectively.
+
+What is the differnce between react.development.js and react.production.js files via CDN?
+    Development here has features like debugging tools, error messages etc whereas production.js dosent have these features 
+    instead it has a much lighter and simplified code for faster executing.
+
+
+
