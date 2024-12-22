@@ -12,3 +12,38 @@ Superpowers of JSX
 Types of scripts  
     Module:This type lets the js know that it can import and export modules and deal with modules
     CommonJS: this type lets the js know that its a normal javaScript file.
+
+Benefits:
+    - Improves Readability
+    - Declarative Syntax
+    - Error detection is easy
+    - Faster code writing
+    - Syntaxes like JSX
+
+React.createElement and JSX Difference
+    - using React.createElement:    var a = React.createElement("h1",null, "Hello world");
+    - JSX                           var a = <h1>Hello world<h1/>;
+
+Behind the scenes:
+    - JSX = var a = <h1>Hello</h1>;
+    - JS  = var parent = document.querySelector(".root);
+            var child = document.createElement("h1");
+            child.innerHTML = "Hello";
+            parent.appendChild(child);
+
+Babel and Parcel Role in JSX
+    babel is a compiler to JSX that converts JSX to simple javaScript in the backgrond
+    Parcel is a bundler that handles various jobs like minification and tree shaking 
+    and making the code more readable and effective, its perfect for code deployment
+
+Componenets
+    they are the building blicks of any react application, they make repetitive coding
+    easy and makes everything usable as they all are set of functions.
+
+Functional Componenets
+    they are simple javascript JSX functions that accept parameters as an object like 
+    "props".
+
+Composing Componenets
+    it is basically using many mini components into one big component.
+
