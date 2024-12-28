@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    padding: 8px;
+    background-color: rgb(255, 167, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown{
+    position: absolute;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar button{
+    all: unset;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 10px ;
+}
+
+.navbar button:hover{
+    transform: translateY(-1);
+    transition: 0.5ms;
+}
+
+.navbar button:active{
+    color: rgb(255, 102, 0);
+}
+
+.navbar img{
+    width: 8px;
+}
+
+.navbar h1{
+    color: white;
+    margin: 10px;
+}
+
+
+
+input[type="text"]{
+    appearance: none;
+    outline: none;
+    appearance: none;
+    text-decoration: none;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 10px ;
+}
+
+
+
+
+
+
+.card{
+    overflow: hidden;
+    margin: 10px;
+    padding: 15px 5px 10px 5px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: rgb(248, 246, 225);
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card:active{
+    transform: translateY(2);
+}
+
+.card h3, p {
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+.card img{
+    width: 120px;
+}
+
+.card p{
+    color: rgb(194, 194, 194);
+}
+
+.card .roww{
+    display: flex;
+    align-items: center;
+}
