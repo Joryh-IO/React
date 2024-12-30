@@ -22,9 +22,8 @@ body{
     all: unset;
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 9px;
     border-radius: 5px;
-    margin: 0px 10px ;
 }
 
 .navbar button:hover{
@@ -68,6 +67,7 @@ input[type="text"]{
     margin: 10px;
     padding: 15px 5px 10px 5px;
     width: 160px;
+    height: fit-content;
     border-radius: 10px;
     background-color: rgb(248, 246, 225);
     text-align: center;
@@ -80,7 +80,7 @@ input[type="text"]{
 }
 
 .card h3, p {
-    margin: 0px 5px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -89,12 +89,18 @@ input[type="text"]{
 }
 
 .card p{
-    color: rgb(194, 194, 194);
+    color: rgb(72, 71, 71);
+    margin: 5px
+}
+
+.card #finalP{
+    text-align: center;
 }
 
 .card .roww{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -104,4 +110,5 @@ input[type="text"]{
 .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
