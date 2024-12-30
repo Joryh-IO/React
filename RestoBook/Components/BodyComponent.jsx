@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
-
-const [mainData, setMainData] = useState([]);
+import Card from "./RestoCard";
 
 var BodyComp = () => {
+    const [mainData, setMainData] = useState([]);
     var maindata;
     const execute = async () => {
         const api_data = await fetch
@@ -11,13 +11,20 @@ var BodyComp = () => {
         const dataSet = await api_data.json();
         maindata = dataSet.data.cards[1].card.card.gridElements.infoWithStyle.restaurants;
         setMainData(maindata);
-        console.log(maindata);
+        //console.log(maindata);
         
     };
+    execute();
 
-    function renderAll(item){
-        return(<Card title={info.name} ratings={info.avgRating} duration={info.sla.slaString} />)
+    function renderAll(RestInfo){
+        return(<Card title={RestInfo.info.name} ratings={RestInfo.info.avgRating} duration={RestInfo.info.sla.slaString} />);
     }
+
+    return(
+        <div className="container">
+        {mainData.map(renderAll)}
+        </div>
+    );
 };
 
 export default BodyComp;
